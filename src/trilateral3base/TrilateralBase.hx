@@ -1,4 +1,5 @@
 package trilateral3base;
+import js.html.Image;
 // hyperKitGL specific
 import hyperKitGL.PlyMix;
 import hyperKitGL.DataGL;
