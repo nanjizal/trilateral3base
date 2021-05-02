@@ -40,7 +40,7 @@ abstract class TrilateralBase extends PlyMix {
         var divertTrace = new DivertTrace();
     }
     // provide and drawing prior to render loop
-    abstract function firstDraw(){
+    abstract function firstDraw():Void;
        
     } 
     // this is the initalization of the drawing and run once.
@@ -102,7 +102,7 @@ abstract class TrilateralBase extends PlyMix {
         penTexture.currentColor = 0xffFFFFFF;
     }
     // animate every render frame.
-    abstract function renderAnimate(){
+    abstract function renderAnimate():Void;
         
     }
     override
