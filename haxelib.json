@@ -1,0 +1,12 @@
+{
+    "name"         : "trilateral3base",
+    "url"          : "https://github.com/nanjizal/trilateral3base#trilatelal3base",
+    "license"      : "MIT",
+    "tags"         : ["cross", "drawing","2d","WebGL" ],
+    "description"  : "trilateral3base provides a base for trilateral use",
+    "version"      : "0.0.1-alpha",
+    "releasenote"  : "See https://github.com/nanjizal/trilateral3base/blob/master/CHANGELOG.md",
+    "contributors" : ["Nanjizal"],
+    "classPath"    : "src",
+    "dependencies" : {}
+}
