@@ -30,7 +30,7 @@ abstract class TrilateralBase extends PlyMix {
     public var imageRatio:          Float;
     public var draw_Shape           = new Array<RangeEntity>();
     
-    public function new( width: Int, height: Int, testImage: String = ''; ){
+    public function new( width: Int, height: Int, testImage: String = '' ){
         super( width, height );
         if( testImage != '' ) {
             loadTestImage( testImage ); 
