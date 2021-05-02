@@ -19,7 +19,7 @@ import trilateral3.structure.RangeEntity;
 // To trace on screen
 import hyperKitGL.DivertTrace;
 
-class TrilateralBase extends PlyMix {
+abstract class TrilateralBase extends PlyMix {
     public var penColor:            Pen;
     public var penNoduleColor       = new PenArrColor();
     public var penTexture:          Pen;
@@ -42,9 +42,7 @@ class TrilateralBase extends PlyMix {
     }
     // provide and drawing prior to render loop
     // must override
-    function firstDraw(): Void {
-       
-    } 
+    abstract function firstDraw(): Void;
     // this is the initalization of the drawing and run once.
     override
     public function draw(){
@@ -105,9 +103,7 @@ class TrilateralBase extends PlyMix {
     }
     // animate every render frame.
     // must override
-    function renderAnimate(): Void {
-        
-    }
+    abstract function renderAnimate(): Void;
     override
     public function renderDraw(){
         var haveTextures: Bool = false;
