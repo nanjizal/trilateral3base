@@ -17,9 +17,10 @@ class Main extends TrilateralBase {
     function firstDraw(){
         // draw stuff //
         /*
-        var posMin = 0;
+        penColor.range.start();
         sketchColor.moveTo(0,0);
-        var range = posMin...Std.int( penColor.pos - 1 );
+        // ... lineTo, quadTo...
+        var range = penColor.range.end();
         */
         // add it to the shapes //
         /*
