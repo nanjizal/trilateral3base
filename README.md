@@ -20,12 +20,11 @@ class Main extends TrilateralBase {
         penColor.range.start();
         sketchColor.moveTo(0,0);
         // ... lineTo, quadTo...
-        var range = penColor.range.end();
         */
         // add it to the shapes //
         /*
         draw_Shape[ draw_Shape.length ] = { textured: false
-                                           , range:    range
+                                           , range:   penColor.range.end() 
                                            , bgColor:  RED };
         */
     }
